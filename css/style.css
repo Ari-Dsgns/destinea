@@ -103,6 +103,7 @@
         text-align: center;
     }
 
+
     .seccionMain2{
         display: flex;
         background-color: whitesmoke;
@@ -136,7 +137,7 @@
         align-items: center;
         background-color: rgb(17, 143, 17);
         color: white;
-        font-size: 18px;
+        font-size: medium;
         border: transparent;
         }
 
@@ -203,7 +204,7 @@
         align-items: center;
         gap: 5.997px;
         background-color: rgb(17, 143, 17);
-        border: solid white;
+        border: solid white 1px;
         color:white ;
     }
 
@@ -244,7 +245,7 @@
         align-items: center;
         gap: 5.997px;
         background-color: rgb(17, 143, 17);
-        border: solid white;
+        border: solid white 1px;
         color:white ;
     }
 
@@ -284,7 +285,7 @@
         align-items: center;
         gap: 5.997px;
         background-color: rgb(17, 143, 17);
-        border: solid white;
+        border: solid white 1px;
         color:white ;
     }
 
@@ -324,7 +325,7 @@
         align-items: center;
         gap: 5.997px;
         background-color: rgb(17, 143, 17);
-        border: solid white;
+        border: solid white 1px;
         color:white ;
     }
 
@@ -366,6 +367,8 @@
         gap: 1.25rem;
         background-color: rgb(224, 224, 224);
     }
+
+    /* +++++++++++++++++++++++++++++++++++++++++++++++ */
 
     .secAcercade1{
 
@@ -417,6 +420,68 @@
     .secAcercade2 p{
         font-size: 20px;
         font-weight: 500;
+    }
+
+    /* +++++++++++++++++++++++++++++++++++++++++++++++ */
+
+    .seccionDestinos1{
+
+        display: flex;
+        width: 100%;
+        height: 600px;
+        background-image: url(../assets/img/halongbay.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center ;
+        justify-content: center;
+        align-items: center;
+        /* padding-bottom: 120px; */
+    }
+
+    .seccionDestinos1 h1{
+        font-size: 48px;
+        align-self: flex-end;
+        align-self: center;
+    }
+
+    .seccionDestinos2{
+
+        display: flex;
+        width: 100%;
+        height: 900px;
+        background-color: whitesmoke;
+        padding: 60px;
+    }
+
+    .cardMexico{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 580px;
+    }
+
+    .botonCard{
+        padding: 10px;
+        width: 200px;
+        color: white;
+        background-color: rgb(26, 122, 26);
+        border: none;
+    }
+
+    .cardMexico h2{
+        font-weight: bold;
+    }
+    
+    .cardMexico div{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        align-items: flex-start;
+        text-align: left;
+        color: black;
+        gap: 16px;
+        padding: 20px;
+        border: solid 1px;
     }
 
 
