@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    }
+
+
+    /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+    @media( max-width: 56rem){
+        .header{
+        object-fit: contain;
+        }
+    }
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+    html{
+        font-family: "Ubuntu", sans-serif;
+        color: white;
+    }
+
+
+
+
+    .header{
+        display: flex;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: bold;
+        /* background-color: #202E4A; */
+        background-color: rgba(26, 42, 87, 0.253);
+        width:100%;
+        height: 100px;
+        padding: 10px 40px;
+        /* top: 0; */
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        /* border: solid; */
+        
+    }
+
+    .navbar{
+        /* font-size: 20px; */
+        font-weight: bold;
+        display: flex;
+        color: white;
+        gap: 40px;
+        /* border: solid; */
+    }
+
+    ul{
+        list-style: none; 
+        /* border: solid;   */
+        /* padding: 20px 20px; */
+        align-items: center;
+
+    }
+
+    ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: "Ubuntu", sans-serif;
+        
+    }
+
+    .seccionMain1{
+        display: flex;
+        width: 100%;
+        height:900px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center ;
+        background-image: url("../assets/img/foto-main.jpg");
+        align-items: center;
+        flex-direction: column;
+        /* gap: 20px; */
+        justify-content: flex-end;
+        padding: 20px;
+        gap: 300px;
+        text-align: center;
+    }
+
+    .seccionMain1 button{
+        font-size: x-large;
+        color: aliceblue;
+        width: 360px;
+        height: 60px;
+        padding: 5.997px;
+        background-color: transparent;
+        border: 2px solid white;
+        margin: 30px;
+        border-radius: 0px;
+        align-self: center;
+        font-family: "Ubuntu", sans-serif;
+    }
+
+    .seccionMain1 h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .seccionMain2{
+        display: flex;
+        background-color: whitesmoke;
+        padding: 40px;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        /* border: solid;
+        border-color: gray; */
+        gap: 20px;
+    }
+
+    .miniCards{
+        display: flex;
+        width: 300px;
+        height: 400px;
+        padding: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+        color: rgb(15, 15, 15);
+        /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.436); */
+        /* border: solid; */
+    }
+
+    .miniCards button{
+        display: flex;
+        width: 200px;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(17, 143, 17);
+        color: white;
+        font-size: 18px;
+        border: transparent;
+        }
+
+        .miniCards p{
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        }
+
+        .miniCards h2{
+        text-align: center;
+        font-weight: bold;
+        }
+
+
+        .seccionMain3{
+            display: flex;
+            width: 100%;
+            height: 900px;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: nowrap;
+            padding: 40px;
+            gap: 1.25rem;
+            background-color: rgb(224, 224, 224);
+        }
+
+
+
+        .cardCostaRica{
+        display: flex;
+        width: 500px;
+        height: 800px;
+        /* padding: 451px 40px 52px 40px; */
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        background-image: url("../assets/img/costarica.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* box-shadow: 0px 0px 20px rgba(20, 20, 20, 0.777); */
+        
+
+    }
+
+    .cardCostaRica div{
+        display: flex;
+        width: 340px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-self: flex-start;
+        gap: 1.25rem;
+        padding: 20px;
+    }
+
+    .cardCostaRica button{
+        display: flex;
+        width: 220px;
+        height: 50px;
+        padding: 5.997px;
+        justify-content: center;
+        align-items: center;
+        gap: 5.997px;
+        background-color: rgb(17, 143, 17);
+        border: solid white;
+        color:white ;
+    }
+
+
+    .cardJapon{
+        display: flex;
+        width: 500px;
+        height: 800px;
+        /* padding: 451px 40px 52px 40px; */
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+        background-image: url("../assets/img/japon.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* box-shadow: 0px 0px 20px rgba(20, 20, 20, 0.777); */
+    }
+
+    .cardJapon div{
+        display: flex;
+        width: 340px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-self: flex-start;
+        gap: 1.25rem;
+        padding: 20px;
+    }
+
+    .cardJapon button{
+        display: flex;
+        width: 220px;
+        height: 50px;
+        padding: 5.997px;
+        justify-content: center;
+        align-items: center;
+        gap: 5.997px;
+        background-color: rgb(17, 143, 17);
+        border: solid white;
+        color:white ;
+    }
+
+    .cardBali{
+        display: flex;
+        width: 500px;
+        height: 800px;
+        /* padding: 451px 40px 52px 40px; */
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        color: white;
+        background-image: url("../assets/img/bali.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        /* box-shadow: 0px 0px 20px rgba(20, 20, 20, 0.777); */
+    }
+    
+    .cardBali div{
+        display: flex;
+        width: 340px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-self: flex-start;
+        gap: 1.25rem;
+        padding: 20px;
+    }
+
+    .cardBali button{
+        display: flex;
+        width: 220px;
+        height: 50px;
+        padding: 5.997px;
+        justify-content: center;
+        align-items: center;
+        gap: 5.997px;
+        background-color: rgb(17, 143, 17);
+        border: solid white;
+        color:white ;
+    }
+
+
+    .seccionMain4{
+
+        display: flex;
+        background-repeat: no-repeat;
+        padding: 40px 40px;
+        align-items: center;
+        width: 100%;
+        height: 876px;
+        background-image: url("../assets/img/himalaya.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .divHimalaya{
+        display: flex;
+        width: 400px;
+        height: 300px;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-self: flex-end;
+        gap: 1.25rem;
+        padding: 10px;
+    }
+
+    .divHimalaya button{
+
+        display: flex;
+        width: 220px;
+        height: 50px;
+        padding: 5.997px;
+        justify-content: center;
+        align-items: center;
+        gap: 5.997px;
+        background-color: rgb(17, 143, 17);
+        border: solid white;
+        color:white ;
+    }
+
+    /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+
+    .secOfertas1{
+        display: flex;
+        width: 100%;
+        height:600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center ;
+        background-image: url("../assets/img/sippakorn-yamkasikorn-PhDmJpUEqmU-unsplash.jpg");
+        align-items: center;
+        /* gap: 20px; */
+        justify-content: center;
+        padding: 20px;
+        gap: 300px;
+        text-align: center;
+    }
+
+    .secOfertas1 h1{
+        font-size: 40px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .secOfertas2{
+        display: flex;
+        width: 100%;
+        height: 900px;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 40px;
+        gap: 1.25rem;
+        background-color: rgb(224, 224, 224);
+    }
+
+    .secAcercade1{
+
+        display: flex;
+        width: 100%;
+        height:600px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center ;
+        background-image: url(../assets/img/sippakorn-yamkasikorn-PhDmJpUEqmU-unsplash.jpg);
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+
+    .secAcercade1 h1{
+
+        font-size: 48px;
+        align-self: flex-end;
+    }
+
+    .secAcercade2{
+        display: flex;
+        width: 100%;
+        height: 900px;
+        background-color: rgb(224, 224, 224);
+        flex-direction: column;
+        align-items: center;
+        color: black;
+        padding: 120px;
+    }
+
+    .secAcercade2 div{
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        justify-content: center;
+        align-content: center;
+        gap: 5rem;
+        flex-wrap: wrap;
+    }
+    
+    .secAcercade2 h2{
+
+    color: black;
+    font-size: 40px;
+    }
+
+    .secAcercade2 p{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+
+
+
